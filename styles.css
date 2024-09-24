@@ -10,11 +10,13 @@ body {
 
 /* Header e Menu */
 header {
-    background-color: #800000;
-    padding: 27px 20px;
+    background-color: #FFF;
+    padding: 24px;
+    margin: 0px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Distribui o logo e o menu */
+    /* justify-content: space-between; */
+    justify-content: flex-start; /* Alinhar os itens à esquerda */
     position: fixed;
     width: 100%;
     top: 0;
@@ -25,8 +27,8 @@ header {
 
 /* Logo */
 header .logo {
-    color: #fff;
-    font-size: 24px;
+    color: #333333;
+    /* font-size: 24px; */
     font-weight: bold;
 }
 
@@ -44,7 +46,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #333333;
     text-decoration: none;
     font-size: 16px;
 }
@@ -55,7 +57,7 @@ nav ul li a:hover {
 
 /* Ajustar o espaçamento do conteúdo para não ficar escondido atrás do header */
 body {
-    padding-top: 80px; /* Ajuste do padding para a altura do header */
+    padding-top: 60px; /* Ajuste do padding para a altura do header */
 }
 
 /* Seções */
@@ -71,8 +73,8 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5) url('https://images.unsplash.com/photo-1645684922842-87793d0b25df?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
-    background-size: cover; /* Ajusta o tamanho da imagem de fundo */
+    background: rgba(0, 0, 0, 0.5) url('../img/img4.jpg') no-repeat center center;
+    background-size: cover;
     color: #fff;
     position: relative;
 }
@@ -160,7 +162,7 @@ section {
 /* Entenda as Etapas */
 #entenda-etapas {
     height: auto; /* Ajustado para o conteúdo */
-    background-color: #600000;
+    background-color: #00603b;
     color: #fff;
     padding: 60px 20px;
     box-sizing: border-box;
@@ -201,8 +203,8 @@ section {
 /* Imagem */
 .entenda-imagem {
     flex: 1;
-    max-width: 45%; /* Ajusta o tamanho máximo da imagem */
-    margin-left: 10px; /* Adiciona uma pequena margem à esquerda da imagem */
+    max-width: 30%; /* Ajusta o tamanho máximo da imagem */
+    margin-right: 100px; /* Adiciona uma pequena margem à esquerda da imagem */
     box-sizing: border-box;
 }
 
@@ -213,7 +215,7 @@ section {
 }
 
 /* Quem Tem Direito a Trabalhar como Enfermeiro na Itália */
-#direitos-italia {
+#servicos {
     background-color: #f4f4f4;
     color: #333;
     padding: 60px 20px;
@@ -232,7 +234,7 @@ section {
 }
 
 .col h3 {
-    background-color: #800000;
+    background-color: #00603b;
     color: #fff;
     padding: 10px;
     margin-top: 0;
@@ -281,7 +283,7 @@ form input, form textarea {
 }
 
 form button {
-    background-color: #800000;
+    background-color: #346432;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -290,7 +292,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #4b0000;
+    background-color: #003f00;
 }
 
 /* Footer */
@@ -303,6 +305,11 @@ footer {
 
 .footer-info p {
     margin: 5px 0;
+    font-size: 18px;
+}
+.footer-copy{
+    margin: 5px 0;
+    font-size: 10px;
 }
 
 #login-btn {
