@@ -13,9 +13,9 @@
         <nav>
             <ul>
                 <li><a href="#home">Inicio</a></li>
-                <li><a href="#entenda-etapas">Benefícios</a></li>
-                <li><a href="#sobre">Quem sou eu</a></li>
+                <li><a href="#sobre_mim">Quem sou eu</a></li>
                 <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
                 <!-- <li><a href="#documentos">Documentos</a></li> -->
                 <li><a href="#contato">Contato</a></li>
             </ul>
@@ -28,18 +28,29 @@
         </div>
     </section>
 
-   <section id="sobre">
-    <div class="sobre-content">
-        <h2>Minha Trajetória na Massoterapia</h2>
-        <p>Descrição completa1</p>
+   <section id="servicos">
+    <div class="servicos-content">
+        <h2>Serviços</h2>
         <div class="blocos">
             <div class="bloco">
-                <h3>Exemplo1</h3>
-                <p>Descrição1.</p>
+                <h3>Drenagem linfática</h3>
+                <ul>
+                    <li>Redução de Inchaço e Retenção de Líquidos</li>
+                    <li>Aceleração da Recuperação Pós-operatória</li>
+                    <li>Fortalecimento do Sistema Imunológico</li>
+                    <li>Combate à Celulite</li>
+                    <li>Melhora da Circulação e Desintoxicação</li>
+                </ul>
             </div>
             <div class="bloco">
-                <h3>Exemplo2</h3>
-                <p>Descrição2.</p>
+                <h3>Massagem terapêutica</h3>
+                <ul>
+                    <li>Aliviar dores musculares e articulares</li>
+                    <li>Melhorar a circulação</li>
+                    <li>Aumentar a mobilidade e flexibilidade</li>
+                    <li>Alívio do estresse físico e mental</li>
+                    <li>Tratar lesões esportivas</li>
+                </ul>
             </div>
             <div class="bloco">
                 <h3>Exemplo13</h3>
@@ -48,32 +59,26 @@
         </div>
     </div>
 </section>
-
-
-   <section id="entenda-etapas">
-    <div class="entenda-content">
-        <div class="entenda-texto">
-            <h2>Como a massoterapia pode melhorar sua saúde e bem-estar?</h2>
-            <ul>
-                <li>Alívio do Estresse</li>
-                <li>Redução de Dores Musculares</li>
-                <li>Melhora da Circulação Sanguínea e Linfática</li>
-                <li>Aumento da Flexibilidade</li>
-                <li>Fortalecimento do Sistema Imunológico</li>
-                <li>Melhora da Qualidade do Sono</li>
-                <li>Melhoria da Postura</li>
-                <li>Alívio de Dores de Cabeça e Enxaquecas</li>
-            </ul>
+    <section id="sobre_mim">
+        <div class="entenda-content">
+            <div class="entenda-texto">
+                <h2>Minha Trajetória na Massoterapia</h2>
+                <p>Minha jornada na massoterapia começou com uma grande paixão pelo bem-estar e pela saúde. Desde cedo, percebi o impacto positivo do toque terapêutico na qualidade de vida das pessoas. Com dedicação, me especializei em diversas técnicas para oferecer um atendimento completo e personalizado.</p>
+                <p>Ao longo dos anos, tive o privilégio de ajudar muitos clientes a aliviarem dores musculares, reduzirem o estresse e melhorarem sua circulação. Cada atendimento é uma oportunidade de proporcionar mais equilíbrio e conforto para quem confia no meu trabalho.</p>
+                <p>Meu compromisso é continuar aprendendo e evoluindo, sempre buscando novas formas de trazer benefícios através da massagem.</p>
+            </div>
+            <div class="entenda-imagem">
+                <img src="img/vania.jpg" alt="Minha trajetória na Massoterapia">
+            </div>
         </div>
-        <div class="entenda-imagem">
+    </section>
+
+    <section id="beneficios">
+        <h2>Como a massoterapia pode melhorar sua saúde e bem-estar?</h2>
+        <!-- <div class="beneficios-imagem">
             <img src="img/img1.jpg" alt="Entenda as Etapas">
-        </div>
-    </div>
-</section>
-
-    <section id="servicos">
-        <h2>Serviços</h2>
-        <div class="direitos-content">
+        </div> -->
+        <div class="beneficios-content">
             <div class="col">
                 <h3>Massagem terapêutica</h3>
                 <ul>
@@ -121,8 +126,8 @@
 
     <footer>
         <div class="footer-info">
-            <p>Telefone: (39) 1234-5678</p>
-            <p>Endereço: Exemplo, Santa Catarina, SC</p>
+            <p>(48) 9964-73154</p>
+            <p>Pedras Grandes, SC</p>
         </div>
         <div class="footer-copy">
             <p>&copy; Desenvolvido por dienifermendonca.tech © 2024. Todos os direitos reservados.</p>
